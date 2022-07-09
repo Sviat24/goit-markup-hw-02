@@ -12,6 +12,7 @@ font-family: 'Roboto', sans-serif; */
 
 body {
   font-family: var(--primary-font);
+  color: var(--primary-text);
 }
 
 address {
@@ -32,17 +33,7 @@ address {
   list-style: none;
 }
 
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-color);
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--accent-color);
-}
-
-/* Logo */
+/* Logo */ /* Logo */ /* Logo */ /* Logo */ /* Logo */
 .logo-style {
   color: var(--accent-color);
 }
@@ -56,4 +47,91 @@ address {
 .logo-studio-footer {
   color: var(--secondary-text-white);
 }
-/* /Logo */
+.logo-style {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19cm;
+  letter-spacing: 0.03em;
+}
+.logo-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19cm;
+  letter-spacing: 0.03em;
+}
+/* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */
+
+/* header */ /* header */ /* header */ /* header */ /* header */
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text);
+}
+
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
+
+/* /header */ /* /header */ /* /header */ /* /header */ /* /header */
+
+/* Description */ /* Description */ /* Description */ /* Description */
+
+.description-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* color: var(--secondary-text-white); */
+}
+
+.style-btm {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.style-btm:hover,
+.style-btm:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-white);
+}
+.description-hdr {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text);
+}
+
+.description-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* Description */ /* Description */ /* Description */ /* Description */
