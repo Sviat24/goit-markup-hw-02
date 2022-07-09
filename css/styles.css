@@ -13,12 +13,6 @@ body {
   font-family: var(--primary-font);
 }
 
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ /* Logo */@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;
-
-.logo-style {
-  color: var(--accent-color);
-}
-
 .logo-style,
 .logo-studio {
   font-family: var(--secondary-font);
@@ -31,3 +25,22 @@ body {
 .list {
   list-style: none;
 }
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* Logo */
+.logo-style {
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: var(--secondary-text);
+}
+/* /Logo */
