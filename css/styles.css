@@ -15,8 +15,7 @@ body {
   color: var(--primary-text);
 }
 
-address {
-  font-family: var(--primary-font);
+.address {
   font-style: normal;
 }
 
