@@ -21,7 +21,9 @@ address {
 }
 
 .logo-style,
-.logo-studio {
+.logo-studio,
+.logo-style-footer,
+.logo-studio-footer {
   font-family: var(--secondary-font);
 }
 
@@ -45,7 +47,7 @@ address {
   color: var(--accent-color);
 }
 .logo-studio-footer {
-  color: var(--secondary-text-white);
+  /* color: var(--secondary-text-white); */
 }
 .logo-style {
   font-weight: 700;
@@ -54,6 +56,19 @@ address {
   letter-spacing: 0.03em;
 }
 .logo-studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19cm;
+  letter-spacing: 0.03em;
+}
+
+.logo-style-footer {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19cm;
+  letter-spacing: 0.03em;
+}
+.logo-studio-footer {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19cm;
@@ -72,20 +87,16 @@ address {
   color: var(--accent-color);
 }
 
+.contact-map:hover .contact-map:focus {
+  /* color: var(--secondary-text-white); */
+}
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text);
-}
-
-.contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text);
 }
 
 /* /header */ /* /header */ /* /header */ /* /header */ /* /header */
@@ -135,3 +146,53 @@ address {
 }
 
 /* Description */ /* Description */ /* Description */ /* Description */
+
+/* About */ /* About */ /* About */ /* About */ /* About */ /* About */
+.titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.166;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+
+/* About */ /* About */ /* About */ /* About */ /* About */ /* About */
+
+/* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+
+.team-job {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */ /* Team */
+
+/* contact */ /* contact */ /* contact */ /* contact */ /* contact */
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text);
+}
+
+.contact-map {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  /* color: var(--secondary-text-white); */
+}
+
+/* contact */ /* contact */ /* contact */ /* contact */ /* contact */
