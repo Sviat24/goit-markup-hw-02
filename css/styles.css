@@ -87,8 +87,14 @@ address {
   color: var(--accent-color);
 }
 
-.contact-map:hover .contact-map:focus {
-  /* color: var(--secondary-text-white); */
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--accent-color);
+}
+
+.contact-map:hover,
+.contact-map:focus {
+  color: var(--accent-color);
 }
 
 .menu-link {
@@ -193,6 +199,14 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
   /* color: var(--secondary-text-white); */
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 
 /* contact */ /* contact */ /* contact */ /* contact */ /* contact */
