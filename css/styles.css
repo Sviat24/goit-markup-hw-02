@@ -7,10 +7,16 @@ font-family: 'Roboto', sans-serif; */
   --primary-text: #757575;
   --secondary-text: #212121;
   --accent-color: #2196f3;
+  --secondary-text-white: #ffffff;
 }
 
 body {
   font-family: var(--primary-font);
+}
+
+address {
+  font-family: var(--primary-font);
+  font-style: normal;
 }
 
 .logo-style,
@@ -42,5 +48,12 @@ body {
 }
 .logo-studio {
   color: var(--secondary-text);
+}
+
+.logo-style-footer {
+  color: var(--accent-color);
+}
+.logo-studio-footer {
+  color: var(--secondary-text-white);
 }
 /* /Logo */
