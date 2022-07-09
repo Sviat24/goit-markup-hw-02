@@ -210,3 +210,34 @@ address {
 }
 
 /* contact */ /* contact */ /* contact */ /* contact */ /* contact */
+
+/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
+.style-btm-filter:hover,
+.style-btm-filter:focus {
+  background-color: var(--accent-color);
+  color: var(--secondary-text-white);
+}
+
+.style-btm-filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+
+.gallery-jpg {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text);
+}
+
+.general-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+/* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */ /* PORTFOLIO */
