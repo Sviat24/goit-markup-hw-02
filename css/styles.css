@@ -8,6 +8,7 @@ font-family: 'Roboto', sans-serif; */
   --secondary-text: #212121;
   --accent-color: #2196f3;
   --secondary-text-white: #ffffff;
+  --hover-color-btm: #188ce8;
 }
 
 body {
@@ -17,6 +18,10 @@ body {
 
 .address {
   font-style: normal;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 
 .logo-style,
@@ -46,31 +51,31 @@ body {
   color: var(--accent-color);
 }
 .logo-studio-footer {
-  /* color: var(--secondary-text-white); */
+  color: var(--secondary-text-white);
 }
 .logo-style {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19cm;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-studio {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19cm;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .logo-style-footer {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19cm;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .logo-studio-footer {
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19cm;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 /* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */ /* /Logo */
@@ -115,7 +120,8 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: var(--secondary-text-white); */
+  background-color: #2f303a;
+  color: var(--secondary-text-white);
 }
 
 .style-btm {
@@ -127,11 +133,13 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-white);
 }
 
 .style-btm:hover,
 .style-btm:focus {
-  background-color: var(--accent-color);
+  background-color: var(--hover-color-btm);
   color: var(--secondary-text-white);
 }
 .description-hdr {
@@ -195,7 +203,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: var(--secondary-text-white); */
+  color: var(--secondary-text-white);
 }
 
 .contact-footer {
@@ -203,7 +211,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* contact */ /* contact */ /* contact */ /* contact */ /* contact */
@@ -221,6 +229,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
   color: var(--secondary-text);
 }
 
