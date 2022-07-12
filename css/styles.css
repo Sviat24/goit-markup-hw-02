@@ -109,6 +109,10 @@ body {
   color: var(--secondary-text);
 }
 
+.current {
+  color: var(--accent-color);
+}
+
 /* /header */ /* /header */ /* /header */ /* /header */ /* /header */
 
 /* Description */ /* Description */ /* Description */ /* Description */
